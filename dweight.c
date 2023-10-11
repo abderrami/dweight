@@ -1,11 +1,13 @@
 #include <stdio.h>
 
 int main(void) {
-    int length = 12;
-    int width = 10;
-    int height = 8;
-    int volume = length * width * height;
-    int weight = (volume + 165) / 166;
+    int length, width, height, volume, weight;
+
+    length = 12;
+    width = 10;
+    height = 8;
+    volume = length * width * height;
+    weight = (volume + 165) / 166;
 
     printf("Dimensions: %dx%dx%d\n", length, width, height) ;
     printf("Volume (cubic inches): %d\n", volume);
